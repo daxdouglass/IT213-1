@@ -14,7 +14,7 @@ namespace IT213_Douglass_Unit1
             string zip = "11111";
             string unitsTaken = "19";
             int intUnitsTaken = Int32.Parse(unitsTaken);      // Convert string to int
-            int incUnitsTaken = ++intUnitsTaken;              // Increment by 1
+            int incUnitsTaken = intUnitsTaken +1;              // Increment by 1
             double pricePerUnit = 100.50;
             double tuition = pricePerUnit * incUnitsTaken;    // Calculate tuition
             int discount = 150;
